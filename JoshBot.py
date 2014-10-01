@@ -2,10 +2,11 @@ games = " Games = Toilet Adventure"
 import time
 print("Hello")
 time.sleep(1)
-print("I am JoshBot")
+print("I am JoshBot Version 3.2.2")
 time.sleep(1)
 password = input("Please Enter JoshBot Password")
 if password == "42":
+    time.sleep(1)
     print("Laoding JoshBot 1.0")
     time.sleep(1)
     print("...")
@@ -15,6 +16,7 @@ if password == "42":
     print("...")
     time.sleep(1)
 while not password == "42":
+    time.sleep(1)
     password = input("!!ERROR!! !!JOSHBOT PASSWORD INCORECT!! !!ENTER CORRECT PASSWOR!!")
     if password == "42":
         print("Laoding JoshBot 1.0")
@@ -31,9 +33,11 @@ print("      ")
 print("      ")
 choice = input("What Do You Want To See?")
 if choice == "games":
+    time.sleep(1)
     print(games)
 choicegame = input("What Game Do You Want To Play?")
 if choicegame == "Toilet Adventure":
+    time.sleep(1)
     print("LOADING TOILET ADVENTURE")
     time.sleep(1)
     print("...")
@@ -41,9 +45,39 @@ if choicegame == "Toilet Adventure":
     print("...")
     time.sleep(1)
     print("...")
-    print("!!ERROR!! !!GAME FILES NOT LOADED!!")
     time.sleep(1)
-    choiceerror = input("Would You Like To Show Full Error Report?")
-    if choiceerror == "yes":
-          print("LOADING TOILET ADVENTURE;FINDING FILES;!!ERROR!! !!FILES NOT FOUND!!")
-          time.sleep(10)
+    print("LOADED")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    time.sleep(1)
+    print("Welcome To Toilet Adventure!!!")
+    print("Please Don't Use Capitals!!!")
+    time.sleep(1)
+    print("Oh No! Aliens are invading!!")
+    time.sleep(1)
+    choiceroomfirst = input("Where Will You Run To?!")
+    if choiceroomfirst == "bathroom":
+        print("You run to the")
+        print(choiceroomfrst)
+        time.sleep(1)
+        toiletchoicefirst = input("Do You Want To Jump Into The Toilet?")
+        if toiletchoicefirst == "yes":
+            print("You Jumped Down The Toilet!!!")
+            print("SWHOOSH!!!")
+            time.sleep(1)
+    if not choiceroomfirst == "bathroom":
+       print("You Ran To The")
+       print(choiceroomfirst)
+       time.sleep(1)
+       print("Oh No! The Aliens Were Waiting There! They Ate Your Face :()")
+       time.sleep(2)
+       print("GAME OVER")
+while not choicegame == ("Toilet Adventure"):
+    print("!!ERROR!! !!INVALID GAME!!")
+    time.sleep(1)
+    choicegame = input("What Game Do You Want To Play?")
+    
+
